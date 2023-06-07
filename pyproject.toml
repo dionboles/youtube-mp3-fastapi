@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "youtube-mp3"
+version = "0.1.0"
+description = ""
+authors = ["Dion Boles <dion.boles@gmail.com>"]
+readme = "README.md"
+packages = [{include = "youtube_mp3"}]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+fastapi = "^0.96.0"
+pytube = "^15.0.0"
+jinja2 = "^3.1.2"
+uvicorn = "^0.22.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
