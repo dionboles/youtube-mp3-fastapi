@@ -5,7 +5,7 @@ This was made as a test for fastapi and vue.js
 to run you need to poetry
 you can use pipx to install it
 
-`pipx install poetry`
+`pipx install uv`
 
 after that use
 
@@ -13,7 +13,7 @@ after that use
 
 then
 
-`poetry install`
+`uv sync`
 
 to run fastapi
 
