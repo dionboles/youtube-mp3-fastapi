@@ -18,3 +18,7 @@ then
 to run fastapi
 
 `uvicorn main:app --reload`
+
+
+## note 
+if you are getting a error you may have to update pytube
